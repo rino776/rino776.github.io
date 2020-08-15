@@ -104,3 +104,28 @@ nav li:hover{
     margin: 0px;
     font-family: sans-serif;
 }
+
+#footer{
+    color:#999999;
+    font-size: 14px;
+}
+#footer .signature{
+    padding: 30px;
+}
+/*footer*/
+#footer li{
+    display: inline-grid;
+    float:right;
+    padding-left:40px;
+    padding-right: 40px;
+    left: 50px;
+
+}
+#footer ul{
+    display: inline;
+    overflow-x: scroll;
+}
+#footer a{
+    text-decoration:none;
+    color:#999999;
+}
