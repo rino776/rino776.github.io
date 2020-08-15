@@ -1,6 +1,6 @@
 body{
     margin:0;
-    font-family: sans-serif;
+    font-family: Tahoma;
     background-color: #ebf1f5;
 }
 
@@ -32,7 +32,8 @@ body{
 
 /*nav bar*/
 nav{
-text-align: center;
+    text-align: center;
+
 }
 
 nav a{
@@ -68,13 +69,18 @@ nav li:hover{
 .dropDown{
     display: none;
     border-style: none;
+    z-index: 1;
 }
 
+.dropDown > ul{
+    position:fixed;
+
+}
 .dropDown li{
     display:block;
-    padding:0px;
+    padding:10px;
     padding-top:5px;
-    width:110%;
+    width:100%;
     right:10px;
     position: relative;
     margin:auto;
@@ -96,13 +102,13 @@ nav li:hover{
     margin:auto;
     width:800px;
     padding:20px;
-    font-family: sans-serif;
+    font-family: Tahoma;
 }
 
 #content h1{
     padding: 0px;
     margin: 0px;
-    font-family: sans-serif;
+    font-family: Tahoma;
 }
 
 #footer{
