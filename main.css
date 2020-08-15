@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+#header img{
+    padding: 0px;
+    border: 0px;
+}
+
+#header .codePic{
+    float:right;
+}
+
+#header .logo{
+    position: relative;
+    left:2%;
+}
+
+#header{
+    background-color: #151414;
+    margin:0px;
+    border: 0px;
+    padding:0px;
+
+}
+
+/*nav bar*/
+nav{
+text-align: center;
+}
+
+nav a{
+    text-decoration:none;
+    color: #DDDDDD;
+}
+
+nav > ul{
+    margin:auto;
+    padding:0px;
+    position: relative;
+    width:800px;
+
+
+}
+
+nav li{
+    display:inline-grid;
+
+    padding:0px;
+    margin:auto;
+    width:150px;
+    background-color: grey;
+    font-size: 25px;
+    border-style: solid;
+
+}
+.dropDown{
+    display: none;
+    border-style: none;
+}
+
+.dropDown li{
+    display:block;
+    padding:0px;
+    padding-top:5px;
+    width:110%;
+    right:10px;
+    position: relative;
+    margin:auto;
+    border-style: none;
+    font-size: 20px;
+}
+/*display the dropDown when we hover over the selector*/
+.selector:hover > .dropDown{
+    display: block;
+    margin:0px;
+
+}
+
+
+/*Content/main body*/
+
+#content{
+    position:relative;
+    margin:auto;
+    width:800px;
+    padding:20px;
+    font-family: sans-serif;
+}
+
+#content h1{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
