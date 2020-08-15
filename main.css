@@ -6,10 +6,12 @@ body{
 #header img{
     padding: 0px;
     border: 0px;
+
 }
 
 #header .codePic{
     float:right;
+    overflow: hidden;
 }
 
 #header .logo{
@@ -22,6 +24,7 @@ body{
     margin:0px;
     border: 0px;
     padding:0px;
+    min-width: 500px;
 
 }
 
@@ -32,8 +35,9 @@ text-align: center;
 
 nav a{
     text-decoration:none;
-    color: #DDDDDD;
+    color: #333333;
 }
+
 
 nav > ul{
     margin:auto;
@@ -50,10 +54,14 @@ nav li{
     padding:0px;
     margin:auto;
     width:150px;
-    background-color: grey;
+    background-color: #17ccf5;
     font-size: 25px;
     border-style: solid;
 
+}
+
+nav li:hover{
+    background-color: #10a1c2;
 }
 .dropDown{
     display: none;
