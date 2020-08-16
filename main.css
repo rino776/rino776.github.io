@@ -9,10 +9,7 @@ body{
     color:inherit;
 }
 
-#content a:hover{
-    color: #AAAAAA;
-}
-#header img{
+img{
     padding: 0px;
     border: 0px;
 
@@ -122,6 +119,17 @@ nav li:hover{
     font-family: Tahoma;
 }
 
+#content a:hover{
+    color: #AAAAAA;
+}
+#content img{
+    text-align: center;
+    margin:auto;
+    position: relative;
+    left:50px;
+}
+/*footer*/
+
 #footer{
     color:#999999;
     font-size: 14px;
@@ -129,7 +137,7 @@ nav li:hover{
 #footer .signature{
     padding: 30px;
 }
-/*footer*/
+
 #footer li{
     display: inline-grid;
     float:right;
