@@ -38,7 +38,7 @@ nav{
 
 nav a{
     text-decoration:none;
-    color: #333333;
+    color: #FFFFFF;
 }
 
 
@@ -55,11 +55,12 @@ nav > ul{
 nav li{
     display:inline-grid;
     padding:0px;
+    padding-top: 3px;
+    padding-bottom: 2px;
     margin:auto;
     width:150px;
-
-    background-color: #17ccf5;
-    font-size: 25px;
+    background-color: #098dab;
+    font-size: 20px;
     border-left: 1px solid #333333;
 
 /*17ccf5*/
