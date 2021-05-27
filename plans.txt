@@ -1,0 +1,7 @@
+-add "random code" section?
+	- just random tidbits of code that I've done, teaching myself things etc?
+
+-search algorythms
+-string search algorythms
+-cpp custom engine
+-checkers?
